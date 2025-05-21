@@ -1,4 +1,4 @@
-FROM node:24.0.2
+FROM node:24.0.2-bookworm-slim
 RUN npm install -g npm@9.1.3
 
 ADD package.json .
